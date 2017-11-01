@@ -13,3 +13,7 @@
   font-weight: bold;
   color: black;
 }
+
+.header {
+  border-bottom: solid 1px black; 
+}
