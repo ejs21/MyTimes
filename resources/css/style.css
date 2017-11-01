@@ -1,12 +1,15 @@
 
-<!-- Header -->
 
-.header {
+.logo h1 {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  color: MediumAquamarine;
 }
 
-.header .logo {
-  color: MediumAquamarine;
+.navigation a {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
 }
