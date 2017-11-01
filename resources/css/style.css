@@ -1,19 +1,35 @@
 
-
-.logo h1 {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
+  padding-bottom: 10px;
+  border-bottom: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.navigation a {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+nav a {
   color: black;
 }
 
-.header {
-  border-bottom: solid 1px black; 
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+nav {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+nav span {
+  margin: 0px 15px;
 }
