@@ -25,6 +25,7 @@ nav a {
   display: flex;
   align-items: center;
   padding-left: 10px;
+  width: 400px;
 }
 
 .logo img {
@@ -33,7 +34,7 @@ nav a {
 
 nav {
   display: inline-block;
-  padding-right: 10px;
+  padding-right: 50px;
 }
 
 nav span {
@@ -44,7 +45,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 80px;
+  top: 100px;
 }
 
 .column.large {
@@ -56,5 +57,5 @@ nav span {
 }
 
 .column.small {
-  width: 240px; 
+  width: 240px;
 }
