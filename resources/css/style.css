@@ -12,6 +12,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 nav a {
@@ -41,4 +43,18 @@ nav span {
 .main-container {
   display: flex;
   justify-content: space-between;
+  position: relative;
+  top: 80px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px; 
 }
