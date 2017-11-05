@@ -3,9 +3,6 @@ body {
   margin: 0;
 }
 
-div {
-  border: 1px red solid;
-}
 
 header {
   font-family: Verdana;
@@ -53,6 +50,7 @@ nav span {
   position: relative;
   top: 100px;
   z-index: -1;
+  margin: 10px 30px 50px 30px; 
 }
 
 .column.large {
@@ -113,7 +111,7 @@ nav span {
 }
 
 .story .article {
-  height: 300px;
+  height: 250px;
 }
 
 .bites ul {
@@ -141,5 +139,5 @@ nav span {
 
 .bites li p {
   margin-left: 5px;
-  margin-right: 10px; 
+  margin-right: 10px;
 }
