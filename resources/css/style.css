@@ -50,7 +50,7 @@ nav span {
   position: relative;
   top: 100px;
   z-index: -1;
-  margin: 0px 30px 50px 30px; 
+  margin: 0px 30px 50px 30px;
 }
 
 .column.large {
@@ -140,4 +140,36 @@ nav span {
 .bites li p {
   margin-left: 5px;
   margin-right: 10px;
+}
+
+/* Footer */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.rowtop {
+  display: flex;
+  justify-content: center;
+  height: 30px; 
+}
+
+.rowtop nav {
+  display: inline-block;
+  padding-right: 0px;
+}
+
+.rowtop .name {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
