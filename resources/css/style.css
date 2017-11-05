@@ -154,12 +154,13 @@ footer {
   justify-content: center;
   align-items: center;
   height: 300px;
+  margin-top: 200px; 
 }
 
 .rowtop {
   display: flex;
   justify-content: center;
-  height: 30px; 
+  height: 30px;
 }
 
 .rowtop nav {
